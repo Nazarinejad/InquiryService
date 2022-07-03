@@ -1,0 +1,53 @@
+.linkWrapper{
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    border:1px solid #eee;
+    position: relative;
+    direction: ltr;
+}
+.linkWrapper .textWrapper{
+    padding: 25px 20px;
+    
+    width: calc(100% - 190px);
+}
+.linkWrapper .textWrapper div{
+    float: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+/* .linkWrapper .textWrapper .whitespace{
+    width: 250px;
+    height: 10px;
+    background-color: yellow;
+} */
+.linkWrapper .icon{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 0 30px;
+    border-right: 1px solid #eee;
+}
+.linkWrapper .btn{
+    text-align: center;
+    padding: 0 20px;
+    font-size: 12px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    border-left: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #1890ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
